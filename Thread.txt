@@ -1,0 +1,34 @@
+How to create a Thread
+
+Using Runnable (implements Runnable)
+Using Thread Class
+
+Interface Runnable{
+    run();
+}
+
+class Thread{  (extends Runnable)
+    
+}
+
+
+class MyThread implements Runnable{ - you need to create only this implement Runnable
+  Run(){
+  }
+}
+
+class MyThread1 extends Thread{
+  Run(){
+  }
+}
+
+Starting Thread
+MyThread myThread = new MyThread();
+Thread thread = new Thread(myThread);
+thread.start();
+
+
+MyThread1 t1 = new MyThread();
+t1.start();
+
+in runnable there is not method start to start the thread so if you creating using Thread class then you can directly call start since it has start method
