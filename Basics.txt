@@ -1,0 +1,13 @@
+CPU - Brain of computer with input all other operations
+Intel & AMD - CPU
+Core - Inside CPU an individual unit, multiple cores means multiple tasks can be done easily
+Program - Set of instruction
+Process - Instance of program
+Thread -  small execution in Process, independently 
+OS Schedular - Balances load
+Dual core, multi core if you are doing more tasks than core then OS schedular comes - MutliTasking
+MultiThreading - by breaking tasks to threads
+In single core system  - managed by OS scheduler by doing Time slicing and context switching 
+In multi core system - distributed across core for optimised performance(parallel)
+Time slicing - Divides CPU Time in smaller intervals(quanta), these quantas will be allocated to each thread or single process to have fair share of CPU time
+Context switching - after the quanta allocated to it the current will pause and saved and next will execute
